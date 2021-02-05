@@ -1,6 +1,5 @@
 import re
 import time
-from bs4 import BeautifulSoup
 
 #Import webdriver to initialise a browser
 from selenium import webdriver
@@ -40,9 +39,6 @@ for d in range(60):
             ActionChains(driver).click(python_botton).perform()
             # Wait for the page to update 
             time.sleep(1)
-            # Now parse the page 
-            #soup = BeautifulSoup(driver.page_source, 'lxml')
-            #companies= soup.find_all('div',class_='rb-ni') 
     # When I finishing parsing the whole month, I'll move to the next month by 
     # clicking the next button
     next = driver.find_element_by_xpath('//*[@id="navForward1"]')

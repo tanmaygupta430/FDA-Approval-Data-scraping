@@ -1,1 +1,1 @@
-# FDA-Approval-Data-scraping
+This repository contains my code for scraping FDA approval data from https://www.biopharmcatalyst.com/calendars/historical-catalyst-calendar and https://calendar.google.com/calendar/embed?showTitle=0&height=600&wkst=1&bgcolor=%23FFFFFF&src=evgohovm2m3tuvqakdf4hfeq84@group.calendar.google.com&color=%23711616&src=5dso8589486irtj53sdkr4h6ek@group.calendar.google.com&color=%23182C57&ctz=America/Los_Angeles using python and R.
